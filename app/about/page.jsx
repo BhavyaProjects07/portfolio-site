@@ -7,7 +7,7 @@ import {
   ArrowLeft
 } from 'lucide-react';
 
-const siteUrl = process.env.APP_URL || 'https://bhavya-sharma.dev';
+const siteUrl = process.env.APP_URL || 'https://bhavyasharma.me';
 
 export const metadata = {
   title: 'About Bhavya Sharma | Full Stack Developer & SEO Engineering Philosophy',
