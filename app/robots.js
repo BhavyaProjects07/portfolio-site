@@ -1,14 +1,14 @@
-export default function robots() {
-  const baseUrl = process.env.APP_URL || 'https://bhavya-sharma.dev';
+const siteUrl = process.env.APP_URL || 'https://bhavyasharma.me';
 
+export default function robots() {
   return {
     rules: [
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/']
-      }
+        disallow: ['/api/'],
+      },
     ],
-    sitemap: `${baseUrl}/sitemap.xml`
+    sitemap: `${siteUrl}/sitemap.xml`,
   };
 }
