@@ -1,7 +1,7 @@
 import { PROJECTS } from '@/lib/portfolio-data';
 
 export default function sitemap() {
-  const baseUrl = process.env.APP_URL || 'https://bhavya-sharma.me';
+  const baseUrl = process.env.APP_URL || 'https://bhavyasharma.me';
   const currentDate = new Date().toISOString();
 
   const staticRoutes = [
